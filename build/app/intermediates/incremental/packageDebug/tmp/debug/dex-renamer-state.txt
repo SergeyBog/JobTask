@@ -1,4 +1,4 @@
-#Thu Nov 16 14:50:49 EET 2023
+#Thu Nov 16 22:08:49 EET 2023
 base.0=/Users/FlutterProjects/Release/JobTask/build/app/intermediates/dex/debug/mergeDexDebug/classes.dex
 renamed.0=classes.dex
 path.0=classes.dex
