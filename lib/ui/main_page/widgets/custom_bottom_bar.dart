@@ -18,7 +18,7 @@ class CustomBottomBar extends StatelessWidget {
                   topRight: Radius.circular(30), topLeft: Radius.circular(30)),
               color: Colors.white,
               boxShadow: [
-                BoxShadow(color: Colors.black38, spreadRadius: 0, blurRadius: 10),
+                BoxShadow(color: Colors.black38, spreadRadius: 0, blurRadius: 3),
               ],
             ),
             child: ClipRRect(
@@ -69,7 +69,7 @@ class CustomBottomBar extends StatelessWidget {
         child: SvgPicture.asset(
           imagePath,
           colorFilter: ColorFilter.mode(
-            mainProvider.currentPageIndex != tabIndex
+            mainProvider.currentPageIndex != (tabIndex > 2 ? tabIndex - 1 : tabIndex)
                 ? AppColor.blackText
                 : AppColor.primary,
             BlendMode.srcIn,
@@ -85,7 +85,7 @@ class CustomBottomBar extends StatelessWidget {
         shape: BoxShape.circle,
         color: AppColor.primary,
         boxShadow: [
-          BoxShadow(color: AppColor.primary.withOpacity(0.3), spreadRadius: 3, blurRadius: 10),
+          BoxShadow(color: AppColor.primary.withOpacity(0.3), spreadRadius: 1, blurRadius: 10),
         ],
       ),
       width: 56,
