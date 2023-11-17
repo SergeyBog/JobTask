@@ -7,6 +7,7 @@ class UserProfile {
   String? profileDescription;
   String? profilePicture;
   List<String>? photos;
+  bool? isFollowed;
 
   UserProfile({
     this.followers,
@@ -17,5 +18,6 @@ class UserProfile {
     this.profileDescription,
     this.photos,
     this.profilePicture,
+    this.isFollowed,
   });
 }

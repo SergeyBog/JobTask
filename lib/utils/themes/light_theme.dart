@@ -40,7 +40,6 @@ class LightTheme {
       titleTextStyle: TextStyle(
           color: AppColor.blackText,
           fontSize: 18,
-          fontFamily: AppFont.ptSerifBold,
           fontWeight: FontWeight.w700
       ),
     );
@@ -67,7 +66,6 @@ class LightTheme {
         color: Color.fromRGBO(214, 81, 52, 1),
         fontSize: 16,
         fontWeight: FontWeight.w500,
-        fontFamily: AppFont.satoshiMedium,
       ),
     );
   }

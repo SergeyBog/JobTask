@@ -2,7 +2,6 @@ import 'package:flutter/cupertino.dart';
 import 'package:job_task/ui/chat_page/chat_page.dart';
 import 'package:job_task/ui/info_page/info_page.dart';
 import 'package:job_task/ui/notification_page/notification_page.dart';
-
 import '../ui/search_page/search_page.dart';
 
 class MainProvider extends ChangeNotifier {
